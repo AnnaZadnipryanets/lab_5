@@ -8,10 +8,10 @@ using namespace std;
 
 int main()
 {
-	int a, b, c;
-	cout << "Enter a, b, c:"<< endl;
-	cin >> a >> b >> c;
-	cout << boolalpha << ((a == b) || (b == c) || (a == c)) << endl;
+	int a, b;
+	cout << "Enter a, b:"<< endl;
+	cin >> a >> b;
+	cout << boolalpha << ((a == b) || (b == 0)) << endl;
 }
 
 
