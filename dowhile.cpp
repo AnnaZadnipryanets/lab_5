@@ -18,7 +18,7 @@ int main()
     a = a1;
     while (a <= a2)
     {
-        y = cos(pow(a,2))+pow(sin(a),2)+2;
+        y = cos(pow(a,2))+2;
         cout << setw(10) << "a=" << a << setw(10) << "y=" << y << endl;
         a+= h;
     } 
