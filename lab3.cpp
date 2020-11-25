@@ -11,7 +11,7 @@ int main()
 	int a, b;
 	cout << "Enter a, b:"<< endl;
 	cin >> a >> b;
-	cout << boolalpha << ((a == b) || (b == 0)) << endl;
+	cout << boolalpha << ((a == b) || (b == 2)) << endl;
 }
 
 
